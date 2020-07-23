@@ -1,0 +1,54 @@
+body {
+  font-family: Palatino;
+}
+
+.title-item {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.author-item {
+  font-size: 18px;
+}
+
+.category-item {
+  font-size: 16px;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+}
+
+#reading-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+#reading-list > li {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-color: #034612;
+  border-radius: 25px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+#new-item-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  margin: 10px 0;
+}
+
+#submit {
+  width: 55px;
+}
